@@ -33,7 +33,7 @@ button {
 
 #streak {
     font-size: 5vh;
-    min-width: 100vw;
+    max-width: 100vw;
 }
 
 /* Responsive adjustments for smaller screens */
