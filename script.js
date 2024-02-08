@@ -1,7 +1,6 @@
 // Initialize count and streak from localStorage or default to 0 and "Streak: No streak so far"
 let count = parseInt(localStorage.getItem('count')) || 0;
-let streak = localStorage.getItem('streak') || "No streak so far";
-let start  = localStorage.getItem('start') || "No streak so far";
+let streak = localStorage.getItem('streak');
 
 // Update the HTML elements with initial count and streak values
 document.getElementById("daysOnTrack").innerText = count;
