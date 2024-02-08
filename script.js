@@ -11,3 +11,4 @@ function startOver() {
     document.getElementById("daysOnTrack").innerText = count;    
     document.getElementById("streak").textContent += count + " - "
     count = 0;
+}
